@@ -1,12 +1,14 @@
-import os
+def calculate_average(numbers):
+    total = 0
+    count = 0
+    
+    for num in numbers:
+        total += num
+        count += 1
+    
+    return total / count
 
-print(os.getcwd())
-
-# 修复：定义变量a和b
-a = “1234”
-b = 8
-
-if a + b > 10:
-    print('a + b > 10')
-else:
-    print('a + b <= 10')
+# 测试用例
+print(calculate_average([1, 2, 3, 4, 5]))  
+print(calculate_average([])) 
+print(calculate_average({"1","2","3","4","5"}))               
