@@ -25,4 +25,8 @@ def calculate_average(numbers):
 
 
 print(calculate_average([])) 
-print(calculate_average({"1","2","3","4","5"}))               
+print(calculate_average({"1","2","3","4","5"})) 
+
+a = "1,2,3,4,5"
+b = "12334"
+print(a + b)
