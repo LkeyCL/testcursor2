@@ -2,6 +2,10 @@ import os
 
 print(os.getcwd())
 
+# 修复：定义变量a和b
+a = “1234”
+b = 8
+
 if a + b > 10:
     print('a + b > 10')
 else:
